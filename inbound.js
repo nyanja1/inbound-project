@@ -1,17 +1,22 @@
-//Home button
 document.getElementById("infoButton").addEventListener("click", function () {
-  alert(
-    "Welcome to our company! We specialize in efficient logistics solutions tailored to meet your needs."
-  );
-});
+  const imageContainer = document.getElementById("imageContainer");
 
-//Aout us
-document.getElementById("about us").onclick = function () {
-  const info = document.getElementById("info");
-  // Toggle the display of the info paragraph
-  if (info.style.display === "none" || info.style.display === "") {
-    info.style.display = "block";
-  } else {
-    info.style.display = "none";
-  }
-};
+  // Clear any existing images
+  imageContainer.innerHTML = "";
+
+  // Array of image URLs
+  const images = [
+    "https://via.placeholder.com/150",
+    "https://via.placeholder.com/200",
+    "https://via.placeholder.com/250",
+  ];
+
+  // Create and append images
+  images.forEach((src) => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = "Image";
+    img.style.margin = "10px"; // Optional: add some styling
+    imageContainer.appendChild(img);
+  });
+});
