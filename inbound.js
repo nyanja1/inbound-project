@@ -6,7 +6,7 @@ document.getElementById("infoButton").addEventListener("click", function () {
 
   // Array of image URLs
   const images = [
-    "https://via.placeholder.com/150",
+    "https://plus.unsplash.com/premium_photo-1661963318752-c7e105de9362?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG9naXN0aWNzfGVufDB8fDB8fHww",
     "https://via.placeholder.com/200",
     "https://via.placeholder.com/250",
   ];
@@ -20,3 +20,32 @@ document.getElementById("infoButton").addEventListener("click", function () {
     imageContainer.appendChild(img);
   });
 });
+
+
+//function createAnElemnt(element) {
+  return(createElement)
+  
+}
+
+//function addText(text) {
+  return(added TextTrack)
+}
+
+//function addPhotos(photos) {
+  return(added photos)
+  
+}
+
+//function addEventListener(listener){
+
+}
+
+//function createAnElemnt(element){
+  return (createdELement);
+}
+
+//function name(myname) {
+  return(namesCreated)
+}
+  
+}
