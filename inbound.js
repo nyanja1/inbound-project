@@ -1,6 +1,14 @@
 document.getElementById("infoButton").addEventListener("click", function () {
   const imageContainer = document.getElementById("imageContainer");
 
+  
+  // Home button functionality
+  document.getElementById('infoButton').addEventListener('click', function() {
+    // Redirect to a different page 
+    window.location.href = 'home.html'; 
+  });
+
+
   // Clear any existing images
   imageContainer.innerHTML = "";
 
@@ -22,30 +30,3 @@ document.getElementById("infoButton").addEventListener("click", function () {
 });
 
 
-//function createAnElemnt(element) {
-  return(createElement)
-  
-}
-
-//function addText(text) {
-  return(added TextTrack)
-}
-
-//function addPhotos(photos) {
-  return(added photos)
-  
-}
-
-//function addEventListener(listener){
-
-}
-
-//function createAnElemnt(element){
-  return (createdELement);
-}
-
-//function name(myname) {
-  return(namesCreated)
-}
-  
-}
