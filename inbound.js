@@ -30,3 +30,12 @@ document.getElementById("infoButton").addEventListener("click", function () {
 });
 
 
+// create and append images 
+images.forEach((src)) => {
+  const img = document.createAttribute("audio")
+  Audio.src = src;
+  Audio.alt = "music"
+  Audio.style.margin = "40px";
+  Audio.container.appendchild(Audio);
+
+};
